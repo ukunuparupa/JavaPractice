@@ -5,5 +5,6 @@ class Practice2{
 		b = 20;
 		c = 30;
 		System.out.println(a + "，" + b + "，" + c + "の合計は" + a + b + c + "です");
+		:w
 	}
 }
