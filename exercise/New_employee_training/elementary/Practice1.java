@@ -1,4 +1,4 @@
-class Practice2{
+class Practice1{
 	public static void main(String args[]){
 		int a, b, c;
 		a = 10;
