@@ -13,8 +13,23 @@ class Practice12{
 		int first = 0;
 		int second = 0;
 		int third = 0;
+		int dataLength = data.length;
 
 		//探索
-		
+		for(int i = 0; i < dataLength; i++){
+			if(first < data[i]){
+				third = second;
+				second = first;
+				first = data[i];
+			}else if(second < data[i]){
+				third = second;
+				second = data[i];
+			}else if(third < data[i]){
+				third = data[i];
+			}
+		}
+
+		//表示
+		System.out.println("１番は"+ first + "で，２番は" + second + "で，３番は" + third + "です");
 	}
 }
