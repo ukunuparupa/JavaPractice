@@ -12,7 +12,7 @@ class Ex3_3_2{
 				if(temp < data[j]){
 					data[j + 1] = data[j];
 
-					//先頭と比べていた時には，tempを代入してしまう．
+					//先頭に来た時には，tempを代入してしまう．
 					if(j == 0){
 						data[j] = temp;
 					}
